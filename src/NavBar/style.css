@@ -1,0 +1,133 @@
+.full {
+	font-family: 'Raleway', sans-serif;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background-image: url('https://images.unsplash.com/photo-1561053720-76cd73ff22c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80 1170w');
+	background-repeat: no-repeat;
+	background-size: cover; */
+}
+
+.search-container {
+	display: flex;
+	-webkit-box-pack: space-around;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: space-around;
+	justify-content: space-around;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 70%;
+	font-size: calc(0.6vw + 1rem);
+	box-shadow: 0px 0px 5px 0 rgb(31 38 135 / 37%);
+	-webkit-backdrop-filter: blur(17px);
+	backdrop-filter: blur(17px);
+	-webkit-backdrop-filter: blur(17px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.full > ul {
+	list-style-type: none;
+	padding: 1rem;
+	position: relative;
+	z-index: 10;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: calc(0.6vw + 1rem);
+	box-shadow: 0px 0px 5px 0 rgb(31 38 135 / 37%);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.searching {
+	width: 500px;
+}
+
+.search-bar {
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	color: #202124;
+	display: flex;
+	z-index: 3;
+	height: 44px;
+	background: white;
+	border: 1px solid #dfe1e5;
+	box-shadow: none;
+	border-radius: 24px;
+	margin: 0 auto;
+	width: auto;
+	max-width: 500px;
+}
+
+.search-bar-hover {
+	box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+	border-color: rgba(223, 225, 229, 0);
+}
+
+.search-bar > div {
+	flex: 1;
+	display: flex;
+	padding: 5px 8px 0 14px;
+}
+
+.search-bar > div > div {
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	color: #202124;
+	display: flex;
+	align-items: center;
+	padding-right: 13px;
+}
+
+.search-bar > div > div > div {
+	margin: auto;
+}
+
+.search-icon {
+	margin-top: 3px;
+	color: #9aa0a6;
+	height: 20px;
+	line-height: 20px;
+	width: 20px;
+}
+
+.search-center {
+	flex: 1;
+	flex-wrap: wrap;
+}
+
+.search-center > div {
+	color: transparent;
+	flex: 100%;
+	white-space: pre;
+	height: 34px;
+	font-size: 16px;
+}
+
+.search-input {
+	background-color: transparent;
+	border: none;
+	margin: 0;
+	padding: 0;
+	color: rgba(0, 0, 0, 0.87);
+	word-wrap: break-word;
+	outline: none;
+	display: flex;
+	flex: 100%;
+	height: 34px;
+	font-size: 16px;
+	max-width: 100%;
+	width: 100%;
+}
+
+.logo {
+	fill: rgb(0, 0, 0);
+	height: 70px;
+	max-width: 300px;
+}
